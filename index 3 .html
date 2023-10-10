@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local storege</title>
+</head>
+<body>
+    
+</body>
+<script>
+        let myname = {
+            name: "man",
+            age: "18",
+            sallary: "20,000"
+        };
+
+        localStorage.setItem("data" , JSON.stringify(myname));
+
+        let myfun = localStorage.getItem("myname")
+        console.log("data" , myname)
+</script>
+</html>
